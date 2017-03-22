@@ -1,0 +1,6 @@
+1er:Résolution de la croix		Etienne & Raph
+2eme:resolution 1ere couronne		Etienne & Raph
+3eme:resolution de la 2eme couronne	Jean
+4eme:croix jaune			Thomas
+5eme:resolution face jaune		Omar
+6eme:positionnement des aretes jaunes et donc finition du cube	Quentin

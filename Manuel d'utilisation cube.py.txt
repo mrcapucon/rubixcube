@@ -1,0 +1,62 @@
+	02/12/2015
+
+	operationnel : 
+
+		- l'initialisation du cube 
+		- affichage du cube 
+		- verifier si le cube est finis
+		- les rotations R L F U D R' U' F' D'  L' + composantes x2
+		- les getters/setters des faces
+		- la verification d'un pattern sur une/des faces
+		- recherche d'un cube en particulier dans le rubik's cube
+
+
+
+
+
+
+
+	Fonctionnement 
+
+		creation d'un nouveau cube 
+
+			cube = Cube(str) ou cube = Cube() pour créer un cube vide de couleur
+
+			l'argument str est une string respectant le format du sujet
+
+		verifier qu'un cube est finis ou non 
+
+			cube.cubeFinished() renvois true si e cube est finis false sinon
+
+			meme principe pour les faces avec 
+
+			cube.faceFinished(nameFace) nameface est un char ayant une valeur parmis " u d r l b f"
+
+		afficher le cube 
+
+			cube.printCube()
+
+		pour récupérer une face ( getter )
+
+			cube.getFace(nameFace)
+
+		pour changer une face ( setter )
+
+			cube.setFace(nameFace,tab)
+
+			NB : tab DOIT etre une liste de listes 3x3 sinon tout plante ;)
+
+
+		pour faire une rotation 
+
+			cube.rotation(cmd)
+
+			cmd est un char parmis la liste des mouvements disponibles pour l'instant 
+
+			CF: au debut du fichier pour plus d'informations
+
+		pour trouver le cube de couleur rouge et bleu 
+
+			cube.findCube('R','B')
+
+			CF commentaire pour savoir ce que renvoit la fonction 

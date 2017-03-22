@@ -1,0 +1,85 @@
+Etapes:
+	1)Commencer par la face blanche (haut) et faire un plus
+	2)Mettre pièce blanche/rouge du milieu au bon endroit pour cela: faire 1/2 tour a la pièce,
+se retrouve en bas au même endroit, la décaler sous la rouge fixe et refaire un 1/2 pour la faire remonter
+	3) faire un T, pour cela mettre les pièces des coins en dessous de leur position au bon endroit et faire la formule:
+		D- (droite ramenez vers vous) B- (bas allez à gauche) D+ B+
+		Si on peut pas la mettre en dessous faire quand même la formule
+	4) Maintenant il faut faire la 2ème couronne:
+		-Retournez le rubik cube face blance en bas
+		-Reperez sur l'arete supérieur les cubes de 2 faces cote à cote, mettre la bonne couleur au dessus du cube fixe
+correspondant pour qu'il y ait un grand T
+		- Si il faut le faire basculer à gauche faire:
+			H-(haut vers la droite) G-(gauche vers autre cote) H+(haut vers gauche)
+			G+(gauche ramenez vers vous) H+ A+(face contre vous vers droite) H- A-
+
+		-Si il faut le faire basculer à droite faire:
+			H+(haut vers gauche) D+(droite vers autre) H-(haut vers droite)
+			D-(droite vers vous) H- A-(face avant vers gauche) H+ A+
+		-Si pas possible de mettre la pièce au dessus de la pièce fixe corespondante:
+			faire une des 2 formules pour ensuite positionner la pièce au bon endroit
+			ensuite faire 1 des 2 cas de si au dessus
+		- Si pièce au bon endroit mais couleur inversées:
+			Placez cube avec la pièce a inversé sur la face aant et à droite
+			D+ H+ D- H2 D+ H2 D- H+ A- H- A+
+		Si 2 pièces inversé sur 2 faces opposé faire:
+			Prenez le cube avec la pièce à inverser à droite face avant et faire
+			D2 H2 D2 H2 D2
+	5) Résoudre la face du dessus:
+		-Si barre jaune:
+			Mettre barre à l'horizontale et faire:
+			A+ D+ H+ D- H- A-
+		-Si J jaune: 
+			Placez le J en haut à gauche et faire:
+			D- H- A- H+ A+ D+
+		-Si point jaune:
+			Faire:
+			D- H- A- H+ A+ D+ on a la barre jaune puis faire
+			A+ D+ H+ D- H- A-
+		-Si croix jaune:
+			il faut que la croix soit bien formée: cube du milieu de la derniere couronne
+			au dessus de son cube correspondant
+		 	
+	    	3 cas possibles:
+					
+			2 arêtes bien placées à côté:
+				Mettre le cube avec en face et à droite les mauvais coins et faire:
+				D+(droite vers autre) H2 D- H-(haut vers la droite) D+ H- D- H-
+			2 arêtes bien placées en face:
+				Mettre le cube avec les bonnes faces à vous et faire:
+				D+ H2 D- H- D+ H- D- puis D+ H2 D- H- D+ H- D- H-
+				cela mène au cas avec la croix bien formée
+
+			4 arêtes bien placées:
+				-1 seul coin bien placé:
+					-Si permettez les 3 autres coin dans le sens des aiguilles:
+						Mettre coin bien placé à droite et faire
+						G- H+ D+ H- G+ H+ D- H-
+					-Si permettez les 3 autres coin dans le sens contraire des aiguilles:
+						Mettre coin bien placé à gauche et faire:
+						D+ H- G- H+ D- H- G+ H+
+				-Aucun coin bien placé:
+					Mettre dans n'importe quelle position et faire:
+					G- H+ D+ H- G+ H+ D- H-
+					cela amène a un des 2 cas ou 1 seul coin est bien placé
+
+	6) Finir le cube, tous les coins bien placés faire tant que Rubik pas fini
+
+https://www.youtube.com/watch?v=eNimMkiEXKI&feature=iv&src_vid=_Py7PmjPa_Q&annotation_id=annotation_1797233073
+
+		- 2 coins mal orientés côte à côte:
+			Mettre les 2 pièces qui ont la même couleur vers la droite et faire:
+			D+(droite vers autre) H2 D- H-(haut vers la droite) D+ H- 
+			D- G-(gauche vers autre cote) H2 G+ H+ G- H+ G+
+		- 4 coins mal orientés: 
+			Reperez 2 coins de même couleurs et les mettre à droite et faire
+			D+ H2 D- H- D+ H- D- G- H2 G+ H+ G- H+ G+ 
+		- 2 coins mal orientés en face:
+			Mettre le jaune en face à gauche et faire:
+			A+ D+ H2 D- H- D+ H- D- G- H2 G+ H+ G- H+ G+ A-   
+		- 3 coins mal orientés avec le jaune vers la droite:
+			Mettre la pièce bien orienté à gauche en haut et faire:
+			D+ H2 D- H- D+ H- D- G- H2 G+ H+ G- H+ G+
+		- 3 coins mal orientés avec le jaune vers la gauche: 
+			Mettre la pièce bien orienté à gauche en haut de la face du haut et faire:
+			D+ H2 D- H- D+ H- D- G- H2 G+ H+ G- H+ G+
